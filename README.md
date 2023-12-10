@@ -2,9 +2,9 @@
 
 Clone this git on your Linux Server with
 
-*apt install git
+*apt install wget
 
-git clone https://github.com/xzLxkas/update.sh/blob/main/update.sh
+wget https://raw.githubusercontent.com/xzLxkas/update.sh/main/update.sh
 
 chmod +x update.sh
 
