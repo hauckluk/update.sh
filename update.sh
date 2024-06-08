@@ -11,5 +11,5 @@ else
     # Fehler bei der Ausführung der Befehle
     echo "Fehler bei der Ausführung der Updates" >&2
 fi
-
+#Zeige version
 inxi -Sz
