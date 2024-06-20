@@ -13,3 +13,4 @@ else
 fi
 #Zeige version
 inxi -Sz
+hostname
