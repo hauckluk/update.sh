@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Führe die Befehle aus
-apt update && apt upgrade -y && apt autoremove
+apt install inxi -y
+apt update && apt upgrade -y && apt autoremove -y
 
 # Überprüfe den Status des vorherigen Befehls
 if [ $? -eq 0 ]; then
